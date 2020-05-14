@@ -9,5 +9,10 @@
     <string name="next">Next</string>
     <string name="confirmation_message">$1 was sent to Adi</string>
     <string name="sample_balance">$1</string>
+    <string name="food">Food</string>
+    <string name="data">Data</string>
+    <string name="rent">Rent</string>
+    <string name="candles">Candles</string>
+    <string name="utility">Utility</string>
 
 </resources>
