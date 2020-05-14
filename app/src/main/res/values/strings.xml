@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">My Wallet</string>
+    <string name="name">Name</string>
+    <string name="amount">Amount</string>
+    <string name="send">send</string>
+    <string name="view_transactions">View transactions</string>
+    <string name="send_money">Send money</string>
+    <string name="view_balance">View balance</string>
+
 </resources>
