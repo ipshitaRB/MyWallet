@@ -8,5 +8,6 @@
     <string name="view_balance">View balance</string>
     <string name="next">Next</string>
     <string name="confirmation_message">$1 was sent to Adi</string>
+    <string name="sample_balance">$1</string>
 
 </resources>
