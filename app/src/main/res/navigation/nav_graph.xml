@@ -49,12 +49,24 @@
         android:id="@+id/confirmationFragment"
         android:name="com.droidrbi.mywallet.ConfirmationFragment"
         android:label="fragment_confirmation"
-        tools:layout="@layout/fragment_confirmation" />
+        tools:layout="@layout/fragment_confirmation">
+        <argument
+            android:name="recipient"
+            android:defaultValue="None" />
+        <argument
+            android:name="amount"
+            app:argType="com.droidrbi.mywallet.Money" />
+    </fragment>
+
     <fragment
         android:id="@+id/specifyAmountFragment"
         android:name="com.droidrbi.mywallet.SpecifyAmountFragment"
-        android:label="fragment_specify_amount"
-        tools:layout="@layout/fragment_specify_amount">
+        android:label="fragment_specify_amount">
+
+        <argument
+            android:name="recipient"
+            android:defaultValue="None" />
+
         <action
             android:id="@+id/action_specifyAmountFragment_to_confirmationFragment"
             app:destination="@id/confirmationFragment"
